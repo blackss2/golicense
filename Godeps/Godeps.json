@@ -1,4 +1,35 @@
 {
-  "ImportPath": "github.com/blackss2/golicense",
-  "GoVersion": "go1.5"
+	"ImportPath": "golicense",
+	"GoVersion": "go1.4",
+	"Packages": [
+		"golicense"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/PuerkitoBio/goquery",
+			"Comment": "v0.3.2-80-g417cce8",
+			"Rev": "417cce822c7b9a379df5824be95228d177c5698b"
+		},
+		{
+			"ImportPath": "github.com/andybalholm/cascadia",
+			"Rev": "3ad29d1ad1c4f2023e355603324348cf1f4b2d48"
+		},
+		{
+			"ImportPath": "github.com/blackss2/utility/convert",
+			"Rev": "3a0d4c2fa1ec61054892dadaee3a4fd791fdab70"
+		},
+		{
+			"ImportPath": "github.com/blackss2/xlsx",
+			"Comment": "go1.1.2-432-g00c8018",
+			"Rev": "00c80184a679ba367d01240880c358b40b8a53f8"
+		},
+		{
+			"ImportPath": "github.com/suapapa/go_hangul/encoding/cp949",
+			"Rev": "d1332fa5e7b46f67dfb8b7cb02b4217b5bfabeea"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "74bd44bb0584f94b166dd892ff9817d4264d359c"
+		}
+	]
 }
