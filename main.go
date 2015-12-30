@@ -20,8 +20,8 @@ func main() {
 	}
 
 	excel := xlsx.NewFile()
-	sheetLicense := excel.AddSheet("License")
-	sheetNotFound := excel.AddSheet("Not Found")
+	sheetLicense, _ := excel.AddSheet("License")
+	sheetNotFound, _ := excel.AddSheet("Not Found")
 	goPath := os.Getenv("GOPATH")
 	for _, v := range list {
 		src := v[len(goPath)+5:]
